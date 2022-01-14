@@ -1,0 +1,54 @@
+.calculadora-botoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    width: 100%;
+    row-gap: 8px;
+    column-gap: 8px;
+}
+
+button{
+    margin: auto;
+    border-radius: 40px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    font-size: 20px;
+}
+
+.ac{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    grid-column: 1 / 4;
+    background-color: #A9A9A9;
+}
+
+.numero0{
+    margin: auto;
+    width: 95%;
+    grid-column: 1 / 3 ;
+}
+
+.numero, .virgula{
+    background-color: #696969;
+    color: #fff;
+}
+
+/* .numero:hover, .ac:hover, .virgula:hover{
+    background-color: rgb(218, 214, 214);
+    color: black;
+} */
+
+.numero:active, .ac:active, .virgula:active{
+    background-color: rgb(88, 87, 87);
+}
+
+.botao:active{
+    background-color: #FF8C00;
+}
+
+.mais, .menos, .vezes, .barra, .igual{
+    background-color: #FFA500;
+    color: #fff;
+}

@@ -1,0 +1,11 @@
+.display{
+    height: 80px;
+    margin-bottom: 2px;
+    color: #fff;
+    font-size: 2.1em;
+}
+
+p{
+    margin-bottom: 0;
+    text-align: right;
+}
